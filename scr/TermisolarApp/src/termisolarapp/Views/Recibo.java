@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package termisolarapp;
+package termisolarapp.Views;
 
 /**
  *
@@ -105,6 +105,11 @@ public class Recibo extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Georgia", 0, 18)); // NOI18N
         jButton2.setText("Guardar");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setFont(new java.awt.Font("Georgia", 0, 18)); // NOI18N
         jButton3.setText("Editar");
@@ -230,6 +235,10 @@ public class Recibo extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
